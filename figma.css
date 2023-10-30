@@ -10,7 +10,14 @@
     flex-shrink: 0;
     margin: 400px 0 0 330px;
     height: 630px;
+}
 
+.imagen2{
+    position: absolute;
+    width: 164.77px;
+    height: 215.45px;
+    flex-shrink: 0;
+    margin: 500px 450px 0;
 
 }
 

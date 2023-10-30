@@ -5,6 +5,15 @@
     display: flex;
 }
 
+.imagen1{
+    position: absolute;
+    flex-shrink: 0;
+    margin: 400px 0 0 330px;
+    height: 630px;
+
+
+}
+
 .titulo{
     margin: 100px auto 0;
     width: 613px;
@@ -25,30 +34,16 @@
     letter-spacing: 1.2px;
 }
 
-.amarillo{
-    margin: 100% auto 0; 
-    width: 686px;
-    height: 819px;
-    flex-shrink: 0;
-    fill: #FAC52F;
-}
-
 .blanco{
-    margin: 40px auto 0;
+    position: absolute;
     display: flex;
     width: 211px;
     height: 66px;
-    align-items: flex-start;
-    gap: 10px;
-    flex-shrink: 0;
     border-radius: 40px;
     border: 1px solid #000;
-    background: #FFF;
-}
-
-.texto{
-    margin: -5% 22% 0%;
+    background-color: rgb(255, 255, 255);
     color: #000;
     font-size: 20px;
-    letter-spacing: normal;
+    margin: 40px 190px 0;
+    padding: 20px 55px
 }

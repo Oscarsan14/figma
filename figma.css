@@ -14,11 +14,17 @@
 
 .imagen2{
     position: absolute;
-    width: 164.77px;
-    height: 215.45px;
+    width: 600px;
+    height: 580px;
     flex-shrink: 0;
     margin: 500px 450px 0;
 
+}
+
+.imagen3{
+    width: 32px;
+    height: 32px;
+    flex-shrink: 0;
 }
 
 .titulo{
@@ -53,4 +59,38 @@
     font-size: 20px;
     margin: 40px 190px 0;
     padding: 20px 55px
+}
+
+.amarillo{
+    position: absolute;
+    display: flex;
+    width: 49px;
+    height: 49px;
+    padding: 9px 8px 8px 9px;
+    justify-content: center;
+    align-items: center;
+    flex-shrink: 0;
+    border-radius: 16px;
+    background: #F2C94C;
+    margin: 700px -200px 0;
+    
+}
+
+.textamarillo{
+    width: 165px;
+    color: #000;
+    font-family: Roboto;
+    font-size: 13px;
+    font-style: normal;
+    font-weight: 300;
+    line-height: normal;
+    letter-spacing: 0.78px;
+}
+
+.rojo{
+    
+}
+
+.azul{
+    
 }

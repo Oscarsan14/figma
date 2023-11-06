@@ -3,6 +3,7 @@
     height: 1024px;
     background: #FFF5D7;
 }
+
 .flex{
     display: flex;
     justify-content: space-between;
@@ -16,7 +17,7 @@
     margin: 45px 0px 0px 45px
 }
 
-.happy{
+.happy{   
     width: 178px;
     color: #8EA4F4;
     font-family: Red Hat Text;
@@ -34,7 +35,6 @@
     background-color: #8EA4F4;
     border-radius: 40px;
     margin: 45px 40px 0px 45px
-
 }
 
 .titulo{
@@ -80,4 +80,35 @@
     font-weight: 500;
     line-height: 18px; /* 81.818% */
     margin: 0px 0px 0px 620px;
+    z-index: 9;
+    position: relative;
 }
+
+.amarillo{
+    width: 686px;
+    height: 450px;
+    flex-shrink: 0;
+    fill: #FAC52F;
+}
+
+.imagen{
+    background-image: url(img/amarillo.png);
+    width: 686px;
+    height: 450px;
+    flex-shrink: 0;
+    fill: #FAC52F;
+}
+
+.estrella{
+    display: flex;
+    width: 49px;
+    height: 49px;
+    padding: 9px 8px 8px 9px;
+    border-radius: 16px;
+    background: #F2C94C;
+}
+
+.textama{
+    width: 165px;
+}
+
